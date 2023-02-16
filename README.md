@@ -38,4 +38,5 @@ Power Management Options:
 ## Problems
 * Windows 8.1 dualboot sits on loading dots forever when booting from OpenCore, have to use F9 boot menu to enter Windows 8.1.
 * Trackpoint and top mouse buttons don't work. Touchpad and bottom mouse buttons work fine.
+* Upon boot, laptop says date and time is invalid however there is nothing wrong with the date and time.
 * You tell me!
