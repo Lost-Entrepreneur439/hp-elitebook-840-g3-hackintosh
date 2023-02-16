@@ -1,7 +1,7 @@
 # hp-elitebook-840-g3-hackintosh-ventura
 A prebuilt Opencore EFI for macOS Ventura on the HP Elitebook 840 G3
 
-This is a macOS Ventura EFI for the HP Elitebook 840 G3, with support for Intel Wi-Fi cards. 13.2.1 working, with OpenCore 0.8.9 and fully up to date kexts. Remember to keep your kexts and OpenCore up to date! I recommend OCAuxiliaryTools to keep your kexts and OpenCore up to date.
+This is a macOS Ventura EFI for the HP Elitebook 840 G3, with support for Intel Wi-Fi cards. 13.2.1 working, with OpenCore 0.8.9 and fully up to date kexts. Remember to keep your kexts and OpenCore up to date! I recommend OCAuxiliaryTools to keep your kexts and OpenCore up to date. Remember to change your SMBIOS data too.
 
 # Specs of my specific unit:
 * CPU: Intel Core i5-6300U
