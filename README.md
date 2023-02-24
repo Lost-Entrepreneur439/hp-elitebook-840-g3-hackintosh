@@ -40,4 +40,6 @@ Power Management Options:
 * Trackpoint and top mouse buttons don't work. Touchpad and bottom mouse buttons work fine. (discovered by me)
 * Upon boot, laptop says date and time is invalid however there is nothing wrong with the date and time. (discovered by me, planned fix in next release)
 * Graphical glitches when scrolling in Safari (discovered by u/UpstairsAd6594 on Reddit)
+* iPhone hotspots will not connect. Use USB tethering instead. (Discovered by me)
+* Sometimes networks will not show up, however you'll still connect to remembered networks. No fix will be available until airportitlwm is updated. (Discovered by me)
 * You tell me!
