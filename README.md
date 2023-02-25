@@ -26,7 +26,7 @@ System Options:
 - Virtualization Technology for Direct I/O (VTd) = Disabled (recommended, Enable also worked)  
 Built-In Device Options:  
 - Wake On LAN = Disabled
-- Video memory size = 64 MB
+- Video memory size = 64MB or higher
 - LAN/WLAN Auto Switching = Disabled
 - Fingerprint Device = Disabled  
 Power Management Options:  
