@@ -20,10 +20,10 @@ Boot options:
 - Fast Boot = Disabled
 - Network (PXE) Boot = Disabled  
 Secure Boot Configuration:
-- "Legacy Support Enable and Secure Boot Disable"  
+- "Legacy Support Disable and Secure Boot Disable"  (Legacy can be enabled if needed, however do not turn on Secure Boot.)
 System Options:  
-- Virtualization Technology (VTx) = Disabled (recommended, Enable also worked)
-- Virtualization Technology for Direct I/O (VTd) = Disabled (recommended, Enable also worked)  
+- Virtualization Technology (VTx) = Enabled
+- Virtualization Technology for Direct I/O (VTd) = Disabled  
 Built-In Device Options:  
 - Wake On LAN = Disabled
 - Video memory size = 64MB or higher
