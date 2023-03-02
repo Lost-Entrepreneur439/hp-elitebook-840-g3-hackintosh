@@ -20,13 +20,13 @@ Boot options:
 - Fast Boot = Disabled
 - Network (PXE) Boot = Disabled  
 Secure Boot Configuration:
-- "Legacy Support Enable and Secure Boot Disable"  
+- "Legacy Support Disable and Secure Boot Disable"  (Legacy can be enabled if needed, however do not turn on Secure Boot.)
 System Options:  
-- Virtualization Technology (VTx) = Disabled (recommended, Enable also worked)
-- Virtualization Technology for Direct I/O (VTd) = Disabled (recommended, Enable also worked)  
+- Virtualization Technology (VTx) = Enabled
+- Virtualization Technology for Direct I/O (VTd) = Disabled  
 Built-In Device Options:  
 - Wake On LAN = Disabled
-- Video memory size = 64 MB
+- Video memory size = 64MB or higher
 - LAN/WLAN Auto Switching = Disabled
 - Fingerprint Device = Disabled  
 Power Management Options:  
@@ -36,7 +36,10 @@ Power Management Options:
 - Wake on USB = Disabled
 
 ## Problems
-* Windows 8.1 dualboot sits on loading dots forever when booting from OpenCore, have to use F9 boot menu to enter Windows 8.1.
-* Trackpoint and top mouse buttons don't work. Touchpad and bottom mouse buttons work fine.
-* Upon boot, laptop says date and time is invalid however there is nothing wrong with the date and time.
+* Dualbooting with Windows 7 and Windows 8.1 not working. Windows 10 and 11 dualboot is untested. Use the F9 boot menu or rEFInd for dualbooting with 7 or 8.1 (discovered by me)
+* Trackpoint and top mouse buttons don't work. Touchpad and bottom mouse buttons work fine. (discovered by me)
+* Upon boot, laptop says date and time is invalid however there is nothing wrong with the date and time. (discovered by me, planned fix in next release)
+* Graphical glitches when scrolling in Safari (discovered by u/UpstairsAd6594 on Reddit)
+* iPhone hotspots will not connect if Bluetooth is enabled on the phone or laptop. Turn off Bluetooth on either or use USB tethering. (Discovered by me)
+* Sometimes networks will not show up, however you'll still connect to remembered networks. No fix will be available until airportitlwm is updated. (Discovered by me)
 * You tell me!
