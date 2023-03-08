@@ -157,9 +157,9 @@
 					<key>ProBook</key>
 					<dict>
 						<key>ActLikeTrackpad</key>
-						<true/>
+						<false/>
 						<key>DisableDevice</key>
-						<true/>
+						<false/>
 					</dict>
 					<key>ProBook-102</key>
 					<string>ProBook</string>
