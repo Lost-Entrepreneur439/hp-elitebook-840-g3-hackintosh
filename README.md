@@ -39,7 +39,8 @@ Power Management Options:
 * Dualbooting with Windows 7 and Windows 8.1 not working. Windows 10 and 11 dualboot is untested. Use the F9 boot menu or rEFInd for dualbooting with 7 or 8.1 (discovered by me)
 * Trackpoint and top mouse buttons don't work. Touchpad and bottom mouse buttons work fine. (discovered by me, planned fix in next release)
 * Upon boot, laptop says date and time is invalid however there is nothing wrong with the date and time. (discovered by me, planned fix in next release)
-* Graphical glitches when scrolling in Safari (discovered by u/UpstairsAd6594 on Reddit)
+* Graphical glitches when scrolling in Safari on some units (discovered by u/UpstairsAd6594 on Reddit)
 * iPhone hotspots will not connect if Bluetooth is enabled on the phone or laptop. Turn off Bluetooth on either or use USB tethering. (Discovered by me)
 * Sometimes networks will not show up, however you'll still connect to remembered networks. No fix will be available until airportitlwm is updated. (Discovered by me)
+* Audio not working on some units (discovered by HardCoreGamer969 on github)
 * You tell me!
