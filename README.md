@@ -42,5 +42,4 @@ Power Management Options:
 * Graphical glitches when scrolling in Safari on some units (discovered by u/UpstairsAd6594 on Reddit)
 * iPhone hotspots will not connect if Bluetooth is enabled on the phone or laptop. Turn off Bluetooth on either or use USB tethering. (Discovered by me)
 * Sometimes networks will not show up, however you'll still connect to remembered networks. No fix will be available until airportitlwm is updated. (Discovered by me)
-* Internal speakers not working on some units (discovered by HardCoreGamer969 on github)
 * You tell me!
