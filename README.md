@@ -42,4 +42,5 @@ Power Management Options:
 * Graphical glitches when scrolling in Safari on some units (discovered by u/UpstairsAd6594 on Reddit)
 * iPhone hotspots will not connect if Bluetooth is enabled on the phone or laptop. Turn off Bluetooth on either or use USB tethering. (Discovered by me)
 * Sometimes networks will not show up, however you'll still connect to remembered networks. No fix will be available until airportitlwm is updated. (Discovered by me)
+* If the laptop's battery dies when in sleep mode, when the laptop turns back on, macOS will act like the laptop is rebooting from a kernel panic, displaying the "Your computer rebooted because of a problem" message. (Discovered by me)
 * You tell me!
