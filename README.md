@@ -34,9 +34,3 @@ Power Management Options:
 - Deep sleep = You can keep this enabled
 - Wake when Lid is Opened = Enabled
 - Wake on USB = Disabled
-
-## Problems
-* Dualbooting with Windows 7 and Windows 8.1 not working. Windows 10 and 11 dualboot is untested. Use the F9 boot menu or rEFInd for dualbooting with 7 or 8.1 (discovered by me)
-* Graphical glitches when scrolling in Safari on some units (discovered by u/UpstairsAd6594 on Reddit)
-* If the laptop's battery dies when in sleep mode, when the laptop turns back on, macOS will act like the laptop is rebooting from a kernel panic, displaying the "Your computer rebooted because of a problem" message. (Discovered by me)
-* You tell me!
