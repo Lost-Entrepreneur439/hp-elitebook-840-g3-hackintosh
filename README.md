@@ -1,6 +1,8 @@
 # hp-elitebook-840-g3-hackintosh-ventura
 A prebuilt Opencore EFI for macOS Ventura on the HP Elitebook 840 G3
 
+**WARNING! Ethernet IS required for initial half of setup if you use an internet-based installer. You will need to install Heliport for Wi-Fi.**
+
 This is a macOS Ventura EFI for the HP Elitebook 840 G3, with support for Intel Wi-Fi cards. 13.3 working, with OpenCore 0.9.0 and fully up to date kexts. Remember to keep your kexts and OpenCore up to date! I recommend OCAuxiliaryTools to keep your kexts and OpenCore up to date. Remember to change your SMBIOS data too.
 
 ![Screenshot](https://github.com/Lost-Entrepreneur439/hp-elitebook-840-g3-hackintosh-ventura/blob/main/Untitled%202.png)
