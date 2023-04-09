@@ -40,12 +40,21 @@ Power Management Options:
 # Credits
 
 [Dortania](https://github.com/dortania) -- Made the OpenCore guide which was used to create this EFI and CtlnaAHCIPort
+
 [Acidanthera](https://github.com/acidanthera) -- Made Opencore, AppleALC, BlueToolFixup, IntelMausi, Lilu, RTCMemoryFixup, VirtualSMC, VoodooInput, VoodooPS2Controller and WhateverGreen
+
 [OpenIntelWireless](https://github.com/OpenIntelWireless) -- made IntelBluetoothFirmware and itlwm
+
 [zxystd](https://github.com/zxystd) -- Made IntelBTPatcher
+
 [cholonam](https://github.com/cholonam) -- Made Sinetek-rtsx
+
 [corpnewt](https://github.com/corpnewt) -- Made USBMap
+
 [VoodooSMBus](https://github.com/VoodooSMBus) -- Made VoodooRMI and VoodooSMBus
+
 [1Revenger1](https://github.com/1Revenger1) -- Helped me fix trackpoint and top mouse buttons
+
 [Apple](https://www.apple.com/ca/) -- Made macOS
-[HP](https://www.hp.com/ca-en/home.html) -- Made the Elitebook 840 G3
+
+[HP](https://www.hp.com/ca-en/home.html) -- Made the Elitebok 840 G3
