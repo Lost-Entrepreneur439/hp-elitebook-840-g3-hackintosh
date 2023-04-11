@@ -32,14 +32,6 @@
                 </dict>
                 <dict>
                     <key>Comment</key>
-                    <string>SSDT-IGPU.aml</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-IGPU.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
                     <string>SSDT-PLUG-DRTNIA.aml</string>
                     <key>Enabled</key>
                     <true/>
