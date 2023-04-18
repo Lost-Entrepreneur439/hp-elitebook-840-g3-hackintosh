@@ -16,6 +16,8 @@ This is a macOS Ventura EFI for the HP Elitebook 840 G3, with support for Intel 
 * Ethernet: Intel I219-LM
 * Touchpad: Synaptics
 
+Follow the "Downloading macOS" section in the Dortania guide to get macOS - https://dortania.github.io/OpenCore-Install-Guide/installer-guide/windows-install.html#downloading-macos
+
 ## Set bios settings as follows:
 Advanced tab:  
 Boot options:  
