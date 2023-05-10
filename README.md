@@ -19,25 +19,25 @@ This is a macOS Ventura EFI for the HP Elitebook 840 G3, with support for Intel 
 Follow the "Downloading macOS" section in the Dortania guide to get macOS - https://dortania.github.io/OpenCore-Install-Guide/installer-guide/windows-install.html#downloading-macos
 
 ## Set bios settings as follows:
-Advanced tab:  
-Boot options:  
-- Fast Boot = Disabled
-- Network (PXE) Boot = Disabled  
-Secure Boot Configuration:
-- "Legacy Support Disable and Secure Boot Disable"  (Legacy can be enabled if needed, however do not turn on Secure Boot.)
-System Options:  
-- Virtualization Technology (VTx) = Enabled
-- Virtualization Technology for Direct I/O (VTd) = Disabled  
-Built-In Device Options:  
-- Wake On LAN = Disabled
-- Video memory size = 64MB or higher
-- LAN/WLAN Auto Switching = Disabled
-- Fingerprint Device = Disabled  
-Power Management Options:  
-- Extended Idle Power States = Disabled
-- Deep sleep = You can keep this enabled
-- Wake when Lid is Opened = Enabled
-- Wake on USB = Disabled
+* Security -> Intel Software Guard Extensions (SGX) -> Disable
+
+* Advanced -> Boot Options -> Uncheck “Fast Boot”
+
+* Advanced -> Boot Options -> Check “UEFI Boot Order”
+
+* Advanced -> Boot Options -> Uncheck “Legacy Boot Order”
+
+* Advanced -> Secure Boot Configuration -> Configure Legacy Support and Secure Boot -> Legacy Support 
+
+* Disable and Secure Boot Disable
+
+* Advanced -> System Options ->  Check “Hyperthreading”
+
+* Advanced -> System Options -> Check “Virtualization Technology (VTx)”
+
+* Advanced -> System Options -> Uncheck “Virtualization Technology for Directed I/O (VTd)”
+
+* Advanced -> Built-In Device Options -> Video memory size -> 64MB or anything higher
 
 # Credits
 
