@@ -23,13 +23,11 @@ Follow the "Downloading macOS" section in the Dortania guide to get macOS - http
 
 * Advanced -> Boot Options -> Uncheck “Fast Boot”
 
-* Advanced -> Boot Options -> Check “UEFI Boot Order”
+* Advanced -> Boot Options -> Check “UEFI Boot Order”
 
 * Advanced -> Boot Options -> Uncheck “Legacy Boot Order”
 
-* Advanced -> Secure Boot Configuration -> Configure Legacy Support and Secure Boot -> Legacy Support 
-
-* Disable and Secure Boot Disable
+* Advanced -> Secure Boot Configuration -> Configure Legacy Support and Secure Boot -> Legacy Support Disable and Secure Boot Disable
 
 * Advanced -> System Options ->  Check “Hyperthreading”
 
