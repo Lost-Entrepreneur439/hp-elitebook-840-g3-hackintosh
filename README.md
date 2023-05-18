@@ -1,9 +1,7 @@
 # hp-elitebook-840-g3-hackintosh-ventura
 A prebuilt Opencore EFI for macOS Ventura on the HP Elitebook 840 G3
 
-**WARNING! Ethernet IS required for initial half of setup if you use an internet-based installer. You will need to install Heliport for Wi-Fi.**
-
-This is a macOS Ventura EFI for the HP Elitebook 840 G3, with support for Intel Wi-Fi cards. 13.3.1a working, with OpenCore 0.9.1 and fully up to date kexts. Remember to keep your kexts and OpenCore up to date! I recommend OCAuxiliaryTools to keep your kexts and OpenCore up to date. Remember to change your SMBIOS data too.
+This is a macOS Ventura EFI for the HP Elitebook 840 G3, with support for Intel Wi-Fi cards. 13.3.4 working, with OpenCore 0.9.2 and fully up to date kexts. Remember to keep your kexts and OpenCore up to date! I recommend OCAuxiliaryTools to keep your kexts and OpenCore up to date. Remember to change your SMBIOS data too.
 
 ![Screenshot](https://github.com/Lost-Entrepreneur439/hp-elitebook-840-g3-hackintosh-ventura/blob/main/Untitled%202.png)
 
@@ -43,7 +41,7 @@ Follow the "Downloading macOS" section in the Dortania guide to get macOS - http
 
 [Acidanthera](https://github.com/acidanthera) -- Made Opencore, AppleALC, BlueToolFixup, IntelMausi, Lilu, RTCMemoryFixup, VirtualSMC, VoodooInput, VoodooPS2Controller and WhateverGreen
 
-[OpenIntelWireless](https://github.com/OpenIntelWireless) -- made IntelBluetoothFirmware and itlwm
+[OpenIntelWireless](https://github.com/OpenIntelWireless) -- made IntelBluetoothFirmware and airportitlwm
 
 [zxystd](https://github.com/zxystd) -- Made IntelBTPatcher
 
