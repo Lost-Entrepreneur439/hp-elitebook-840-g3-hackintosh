@@ -1,7 +1,7 @@
 # hp-elitebook-840-g3-hackintosh-ventura
 A prebuilt Opencore EFI for macOS Ventura on the HP Elitebook 840 G3
 
-This is a macOS Ventura EFI for the HP Elitebook 840 G3, with support for Intel Wi-Fi cards. 13.4 working, with OpenCore 0.9.2 and fully up to date kexts. Remember to keep your kexts and OpenCore up to date! I recommend OCAuxiliaryTools to keep your kexts and OpenCore up to date. Remember to change your SMBIOS data too.
+This is a macOS Ventura EFI for the HP Elitebook 840 G3, with support for Intel Wi-Fi cards. 13.4.1 working, with OpenCore 0.9.3 and fully up to date kexts. Remember to keep your kexts and OpenCore up to date! I recommend OCAuxiliaryTools to keep your kexts and OpenCore up to date. Remember to change your SMBIOS data too.
 
 ![Screenshot](https://github.com/Lost-Entrepreneur439/hp-elitebook-840-g3-hackintosh-ventura/blob/main/Untitled%202.png)
 
@@ -37,22 +37,24 @@ Follow the "Downloading macOS" section in the Dortania guide to get macOS - http
 
 # Credits
 
-[Dortania](https://github.com/dortania) -- Made the OpenCore guide which was used to create this EFI and CtlnaAHCIPort
+[Dortania](https://github.com/dortania) -- Made the OpenCore guide which was used to create this EFI
 
-[Acidanthera](https://github.com/acidanthera) -- Made Opencore, AppleALC, BlueToolFixup, IntelMausi, Lilu, RTCMemoryFixup, VirtualSMC, VoodooInput, VoodooPS2Controller and WhateverGreen
+[Acidanthera](https://github.com/acidanthera) -- Made OpenCore, AppleALC, BlueToolFixup, BrightnessKeys, IntelMausi, Lilu, SMCBatteryManager, SMCProcessor, SMCSuperIO, VirtualSMC, VoodooPS2Controller & WhateverGreen
 
-[OpenIntelWireless](https://github.com/OpenIntelWireless) -- made IntelBluetoothFirmware and airportitlwm
+[OpenIntelWireless](https://github.com/OpenIntelWireless) -- Made airportitlwm & IntelBluetoothFirmware,
 
-[zxystd](https://github.com/zxystd) -- Made IntelBTPatcher
+[Avery Black](https://github.com/1Revenger1) -- Made ECEnabler
 
-[cholonam](https://github.com/cholonam) -- Made Sinetek-rtsx
+[钟先耀](https://github.com/zxystd) -- Made IntelBTPatcher
 
-[corpnewt](https://github.com/corpnewt) -- Made USBMap
+[FireWolf](https://github.com/0xFireWolf) -- Made RealtekCardReader
 
-[VoodooSMBus](https://github.com/VoodooSMBus) -- Made VoodooRMI and VoodooSMBus
+[USBToolBox](https://github.com/USBToolBox) -- Made USBToolBox & UTBMap
 
-[1Revenger1](https://github.com/1Revenger1) -- Helped me fix trackpoint and top mouse buttons
+[VoodooSMBus](https://github.com/VoodooSMBus) -- Made VoodooRMI & VoodooSMBus
+
+[CorpNewt](https://github.com/corpnewt) -- Helped me fix external display issues
+
+[HP](https://www.hp.com/us-en/home.html) -- Made the EliteBook 840 G3
 
 [Apple](https://www.apple.com/ca/) -- Made macOS
-
-[HP](https://www.hp.com/ca-en/home.html) -- Made the Elitebok 840 G3
