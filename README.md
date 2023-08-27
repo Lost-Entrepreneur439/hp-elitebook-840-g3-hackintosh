@@ -8,11 +8,11 @@ This is a macOS Ventura EFI for the HP Elitebook 840 G3, with support for Intel 
 # Specs of my specific unit:
 * CPU: Intel Core i5-6300U
 * GPU: Intel HD Graphics 520
-* Resolution: 1920x1080
-* Audio: Intel Sunrise Point-LP PCH
-* Wi-Fi+Bluetooth: Intel AC-8260
-* Ethernet: Intel I219-LM
-* Touchpad: Synaptics
+* Touchpad: Synaptics SMBus
+* Audio - Conexant CX20724
+* Wi-Fi/Bluetooth - Intel Wireless-AC 8260
+* Ethernet - Intel I219-LM
+* SSD - Micron 256GB mSATA
 
 Follow the "Downloading macOS" section in the Dortania guide to get macOS - https://dortania.github.io/OpenCore-Install-Guide/installer-guide/windows-install.html#downloading-macos
 
