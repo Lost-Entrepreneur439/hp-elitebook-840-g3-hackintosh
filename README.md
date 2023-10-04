@@ -1,11 +1,11 @@
-# hp-elitebook-840-g3-hackintosh-ventura
-A prebuilt Opencore EFI for macOS Ventura on the HP Elitebook 840 G3
+# hp-elitebook-840-g3-hackintosh
+A prebuilt Opencore EFI for macOS on the HP Elitebook 840 G3
 
 **WARNING! If running Sonoma, ethernet IS required for initial half of setup if you use an internet-based installer. You will need to install Heliport for Wi-Fi. Ventura users can use Wi-Fi with no issues.**
 
 Use 1.x releases for Ventura, 2.x releases for Sonoma.
 
-This is a macOS Ventura EFI for the HP Elitebook 840 G3, with support for Intel Wi-Fi cards. Ventura and Sonoma compatible.
+This is a macOS EFI for the HP Elitebook 840 G3, with support for Intel Wi-Fi cards. Ventura and Sonoma compatible.
 ![Screenshot](https://github.com/Lost-Entrepreneur439/hp-elitebook-840-g3-hackintosh-ventura/blob/main/Untitled%202.png)
 
 # Specs of my specific unit:
