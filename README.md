@@ -19,6 +19,8 @@ This is a macOS EFI for the HP Elitebook 840 G3, with support for Intel Wi-Fi ca
 
 Follow the "Downloading macOS" section in the Dortania guide to get macOS - https://dortania.github.io/OpenCore-Install-Guide/installer-guide/windows-install.html#downloading-macos
 
+If your EliteBook has an M.2 *NVMe* SSD, download NVMeFix.kext and add it to your config.plist using ProperTree. I have not included this in the EFI by default has the most common configuration of the 840 G3 has an M.2 *SATA* SSD.
+
 ## Set bios settings as follows:
 * Security -> Intel Software Guard Extensions (SGX) -> Disable
 
