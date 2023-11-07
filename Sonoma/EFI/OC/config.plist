@@ -245,14 +245,16 @@
 			<false/>
 			<key>DisableSingleUser</key>
 			<false/>
-			<key>DisableVariableWrite</key>
-			<false/>
 			<key>DiscardHibernateMap</key>
+			<false/>
+			<key>DisableVariableWrite</key>
 			<false/>
 			<key>EnableSafeModeSlide</key>
 			<true/>
 			<key>EnableWriteUnprotector</key>
 			<true/>
+			<key>FixupAppleEfiImages</key>
+			<false/>
 			<key>ForceBooterSignature</key>
 			<false/>
 			<key>ForceExitBootServices</key>
